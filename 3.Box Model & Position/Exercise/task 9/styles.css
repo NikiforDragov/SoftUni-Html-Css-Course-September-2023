@@ -1,0 +1,33 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: rgb(238, 238, 238);
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+article, aside {
+    display: inline-block;
+    margin: 2.5em 1.5em 2.5em 1.5em;
+    box-sizing: border-box;
+}
+
+article {
+    width: 60%;
+}
+
+aside {
+    width: 28%;
+    vertical-align: top;
+}
+
+p {
+    color: rgb(51, 51, 51);
+}
+
+img {
+    max-width: 50%;
+}
+
+h1 {
+    font-weight: 30px;
+}
