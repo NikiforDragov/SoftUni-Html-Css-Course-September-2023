@@ -1,0 +1,89 @@
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    background-color: #B5D8FF;
+    margin: 0.5em;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, footer {
+    flex-basis: 100%;
+}
+
+header {
+    display: flex;
+}
+
+header nav {
+    display: flex;
+}
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    display: block;
+}
+
+header nav ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+aside
+{
+    flex-grow: 0;
+}
+
+section {
+    flex-grow: 4;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 26px;
+    padding: 0.5em 0 0.5em 0;
+}
+
+aside ul {
+    padding-right: 1em;
+}
+
+aside ul li {
+    display: block;
+}
+aside ul li a {
+    text-decoration: none;
+}
+
+section h1 {
+    padding-top: 0.5em;
+}
+
+section ul{
+    padding-left: 2.5em;
+    padding-bottom: 0.5em;
+}
+section ul li{
+    line-height: 0.6em;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+
+    nav ul,
+    header {
+        flex-direction: column;
+    }
+
+}

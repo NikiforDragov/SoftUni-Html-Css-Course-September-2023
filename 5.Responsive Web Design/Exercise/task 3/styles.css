@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 5em;
+}
+
+main {
+    max-width: 60vw;
+}
+
+header {
+    border-bottom: 1px solid black;
+    flex-basis: 100%;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2,
+h3,
+h4 {
+    font-family: Georgia, serif;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+aside ul li {
+    color: rgb(0, 153, 0);
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.page > main {
+    flex: 1 1 70%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 70%;
+}
+
+img.align-right {
+    float: right;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 501px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 801px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1301px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 1801px) {
+    html {
+        font-size: 23px;
+    }
+}

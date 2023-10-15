@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 5em;
+}
+
+h1,
+h2,
+h3 {
+    font: 1em/1.2 'Georgia', serif;
+}
+
+article {
+    padding: 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgb(0, 153, 0);
+    border-radius: 0.1em;
+    color: white;
+    padding: 0.3em 0.7em;
+    border: 1px solid rgb(0, 153, 0);
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    align-self: flex-end;
+}
+
+article h3 {
+    font: 1em/1.2 Georgia, serif;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+}
+
+article p {
+    line-height: 1.5em;
+}
+
+.card {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px 1px rgba(99,93,99,1);
+}
+
+.img-container {
+    object-fit: cover;
+    margin-bottom: 1em;
+}
