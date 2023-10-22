@@ -1,0 +1,19 @@
+.section-site-banner .container {
+    padding: 3em 0 10em 0;
+}
+
+.about {
+    font-size: 34px;
+}
+
+.desc {
+    font-family: 'PT-Sans',sans-serif;
+    max-width: 59ch;
+    margin-top: 1em;
+    line-height: 2;
+}
+
+.about,
+.desc {
+    color: white;
+}

@@ -1,0 +1,32 @@
+.section-features {
+    background-color: white;
+}
+
+.section-features .container {
+    display: flex;
+    padding: 5em 0 5em 0;
+    gap: 3em;
+}
+.section-features .container article {
+    flex: 0 0 463px;
+}
+
+.section-features .container article h2{
+   margin-bottom: 1em;
+   font-family: 'PT Serif',serif;
+   font-size: 26px;
+   color: #37282B;
+}
+
+p.description {
+    line-height: 2em;
+    margin-bottom: 2em;
+    font-family: 'PT Sans',sans-serif;
+}
+
+a.more-info-btn {
+    font-weight: bold;
+    color: #B0825C;
+    border: 1px solid #B0825C;
+    padding: 0.5em 1em;
+}

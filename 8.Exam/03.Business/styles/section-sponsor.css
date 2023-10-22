@@ -1,0 +1,40 @@
+.section-sponsors {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: white;
+}
+
+.section-sponsors .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-sponsors .container h3 {
+    font-size: 28px;
+    color: #b0825c;
+    margin-bottom: 1.5em;
+}
+
+.section-sponsors .container p {
+    margin-bottom: 1em;
+    color: #8C8284;
+    text-align: center;
+    max-width: 137ch;
+}
+
+.section-sponsors .container .media {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.section-sponsors .container .media img {
+    max-width: 150px;
+    max-height: 150px;
+    background: #dddddd;
+    border-radius: 50%;
+    padding: 1.5em;
+}

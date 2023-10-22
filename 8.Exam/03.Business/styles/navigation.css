@@ -1,0 +1,15 @@
+.main-navigation ul {
+    display: flex;
+}
+
+.main-navigation a {
+    padding: 0.5em 1em;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'PT Sans',sans-serif;
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+}

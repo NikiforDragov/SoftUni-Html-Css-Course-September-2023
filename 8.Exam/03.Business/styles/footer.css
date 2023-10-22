@@ -1,0 +1,33 @@
+.section-site-footer {
+    background-color: #171720;
+    border-bottom: 2px solid white;
+}
+
+.copyrights {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #a59688;
+}
+
+.section-site-footer .container .footer-content {
+    display: flex;
+    gap: 5em;
+    padding: 3em 0 3em 0 ;
+}
+
+.section-site-footer .container .footer-content section{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-site-footer .container .footer-content section h3{
+    color: white;
+    margin-bottom: 2em;
+    font-weight: normal;
+}
+.section-site-footer .container .footer-content section a{
+    color: #a59688;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    font-size: 10px;
+}
